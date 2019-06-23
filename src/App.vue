@@ -1,17 +1,20 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <GoogleMap></GoogleMap>
+    <PicturePoints></PicturePoints>
+
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import PicturePoints from './components/PicturePoints.vue'
+import GoogleMap from './components/GoogleMap.vue'
 
 export default {
   name: 'app',
   components: {
-    HelloWorld
+    PicturePoints,
+    GoogleMap,
   }
 }
 </script>
